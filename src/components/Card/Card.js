@@ -5,7 +5,7 @@ import "./Card.css";
 const Card = props => (
     <div className="card hover">
         <div className="img-container" onClick={props.imageClick}>
-        <img alt={props.name} src={props.image} id={props.id}/>
+            <img alt={props.name} src={props.image} id={props.id}/>
         </div>
     </div>
   );
